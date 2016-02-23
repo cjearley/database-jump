@@ -12,9 +12,6 @@
 #####################################
 
 import psycopg2, sqlite3
-import sys, getopt
-import argparse
-import subprocess 
 
 from time import strftime
 from datetime import datetime
