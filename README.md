@@ -8,6 +8,13 @@ Python script to copy a row of values from SQLite3 to PostgreSQL. (This assumes 
 
 We use the weewx software package to collect data from a Davis Vantage Pro2 Plus weather station on the roof of our science center once every ten minutes. Weewx saves the data to a SQLite database, but most of our other work is done in Postgres. We opted to move the data, and I wrote first a Perl and then a Python script to do it.
 
+## Scripts
+
+`oldDbJump.pl` was the Perl version of the script
+`dbjump.py` is the current, Python version of the script
+
+Both would need to be adjusted for their respective programming environments.
+
 ## Installation and Usage
 
 Copy and run as you prefer to run Python. Specify all required information for both databases. Run manually, or set it to run (as we do) with cron.
